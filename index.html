@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
-<title>Anna Brezhneva</title>
+<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="personal-website.css">
+
+
 <body>
-
-<!-- Sidenav -->
-<!-- <nav class="w3-sidenav w3-black w3-card-2 w3-animate-top w3-center w3-xxlarge" style="display:none;padding-top:220px" id="mySidenav">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-jumbo w3-right w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <a href="index.html" class="w3-text-grey w3-hover-black">Home</a>
-  <a href="resume.html" class="w3-text-grey w3-hover-black">Resume</a>
-  <a href="contact.html" class="w3-text-grey w3-hover-black">Contact</a>
-</nav> -->
-
 
 <!-- Navbar -->
 <div class="w3-top">
-<ul class="w3-navbar w3-white w3-card-2 w3-left-align">
+<ul class="w3-navbar w3-black w3-card-2 w3-left-align">
   <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
     <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
   </li>
@@ -32,30 +23,35 @@
 </ul>
 </div>
 
-
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
-<div class="w3-container w3-padding-64 w3-center w3-opacity w3-margin-bottom">
-<!--   <span class="w3-opennav w3-xxlarge w3-right w3-margin-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
- -->  
- <!-- <div class="w3-clear"></div> -->
-  <h1>PROJECTS</h1>
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <ul class="w3-navbar w3-left-align w3-black">
+  <li><a href="#" class="w3-hover-none w3-hover-text-grey w3-padding-large">HOME</a></li>
+  <li><a href="resume.html" class="w3-padding-large">RESUME</a></li>
+  <li><a href="#" class="w3-padding-large">ABOUT</a></li>
+  <li ><a href="contact.html" class=" w3-padding-large">CONTACT</a></li>
+  </ul>
 </div>
 
+<!-- Page content -->
+<div class="w3-content" style="max-width:1800px;margin-top:46px">
 
-<div class="w3-container w3-center w3-opacity w3-margin-bottom">
-	<h7>Technical</h7>
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide">PROJECTS</h2>
+
+
+    <div class="w3-container w3-padding-2 w3-center w3-opacity w3-margin-bottom">
+<p></p>
 </div>
-
-<!-- Technical Projects -->
-
-
-
+    <p class="w3-opacity"><i>TECHNICAL</i></p>
+    
+<!--     <div class="w3-row w3-padding-32"> -->
 <ul class="img-list">
 
-	<li>
+  <li>
     <a href="roche/bina-roche.html">
       <img src="roche/roche-sequencing.jpg" width="150" height="150" />
       <span class="text-content"><span>PM @ Bina</span></span>
@@ -74,6 +70,9 @@
       <span class="text-content"><span>Tweetboard</span></span>
     </a>
   </li>
+</ul>
+
+<ul class="img-list">
 
    <li>
     <a href="breakout-mentors/breakout-mentors.html">
@@ -89,7 +88,7 @@
     </a>
   </li>
 
-      <li>
+  <li>
     <a href="tripadvisor/tripadvisor.html">
       <img src="tripadvisor/tripadvisor-logo.jpg" width="150" height="150" />
       <span class="text-content"><span>TripAdvisor City Guides</span></span>
@@ -102,13 +101,7 @@
 <div class="w3-container w3-padding-32 w3-center w3-opacity w3-margin-bottom">
 <p></p>
 </div>
-
-
-
-<div class="w3-container w3-center w3-opacity w3-margin-bottom">
-	<h7>Creative</h7>
-</div>
-
+<p class="w3-opacity"><i>CREATIVE</i></p>
 <!-- Creative Projects -->
 
 <ul class="img-list">
@@ -124,26 +117,30 @@
       <span class="text-content"><span>Poster Design</span></span>
     </a>
   </li>
-<!--     <li>
+    <li>
     <a href="sex-ed/sex-ed.html">
       <img src="sex-ed/birds-and-bees.jpg" width="150" height="150" />
       <span class="text-content"><span>Sex Ed Curriculum</span></span>
     </a>
-  </li> -->
-<!--    <li>
+  </li>
+
+</ul>
+
+<!-- <ul class="img-list">
+   <li>
     <a href="fiction/fiction.html">
       <img src="fiction/books.jpg" width="150" height="150" />
       <span class="text-content"><span>Fiction</span></span>
     </a>
-  </li> -->
-<!--     <li>
+  </li>
+    <li>
     <a href="equus/equus.html">
       <img src="acting/equus-cover.jpg" width="150" height="150" />
       <span class="text-content"><span>Acting</span></span>
     </a>
   </li>
- -->
-<!--       <li>
+
+      <li>
     <a href="hobbies/hobbies.html">
       <img src="hobbies/cooking.jpg" width="150" height="150" />
       <span class="text-content"><span>Hobbies</span></span>
@@ -151,41 +148,47 @@
   </li> -->
 </ul>
 
-<!-- <div class="w3-container w3-center w3-opacity w3-margin-bottom">
-	<h7>Miscellanious</h7>
+
+    </div>
+  </div>
+
+  
+  
+<!-- End Page Content -->
 </div>
 
 
 
 
-
-
-
-
-<div class="w3-clear"></div><br><br>
-
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-margin-top w3-opacity">
- <div class="w3-xlarge w3-padding-32">
-   <a href="https://www.pinterest.com/abrezh" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
-   <a href="www.linkedin.com/in/annabrezhneva" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
- </div>
-<!--   <p style="font-weight:normal">Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+
+  <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+
 </footer>
- 
+
 <script>
 
-// Open and close sidenav
-function w3_open() {
-    document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("mySidenav").style.display = "block";
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
 
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
 </script>
-
 
 <!-- Google Analytics -->
 <script>

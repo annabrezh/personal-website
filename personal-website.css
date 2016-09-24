@@ -1,6 +1,5 @@
-body,h1 {font-family: "Montserrat", sans-serif; font-weight: bold}
-img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
 
 ul.img-list {
   list-style-type: none;
